@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "body-parser": "^1.18.2",
     "concurrently": "^3.5.1",
     "css-loader": "^0.28.11",
     "dotenv": "^5.0.1",

@@ -3,10 +3,10 @@ const webpack = require('webpack');
 const ExtractCSS = require('extract-text-webpack-plugin');
 
 module.exports ={
-    entry: './public/app.js',
+    entry: './client/app.js',
     output: {
         filename: 'app.bundle.js',
-        path: path.resolve(__dirname , 'public/dist')
+        path: path.resolve(__dirname , 'client/dist')
     },
     module: {
         rules: [
