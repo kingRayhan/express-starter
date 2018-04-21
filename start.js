@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const path = require('path');
 
-const app = require('./app');
+
 
 // Environment variable
 dotenv.config({ path: path.resolve(__dirname , '.env') });
@@ -23,6 +23,11 @@ if(process.env.DATABASE) // Database variable exists
       console.error(`🙅 🚫 🙅 🚫 🙅 🚫 🙅 🚫 → ${err.message}`);
     });
 }
+
+// Models
+require('./models/Cat');
+
+const app = require('./app');
 
 // Start server
 const port = process.env.PORT || 3000;

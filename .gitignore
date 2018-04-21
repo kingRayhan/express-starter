@@ -3,3 +3,4 @@ client/dist
 yarn-error.log
 .vscode
 package-lock.json
+.git

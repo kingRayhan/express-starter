@@ -1,0 +1,8 @@
+extend layout
+block content
+    form(action="/upload"  method="POST")
+        input(type="text" name="name")
+        br
+        input(type="text" name="email")
+        br
+        button(type="submit") Save
