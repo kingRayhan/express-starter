@@ -1,11 +1,11 @@
 # Express Starter
 
 
-** Clone project files**
+**Clone project files**
 ```bash
 git clone https://github.com/kingRayhan/express-starter.git
 ```
-** Install dependencies**
+**Install dependencies**
 
 by **npm**
 ```bash
