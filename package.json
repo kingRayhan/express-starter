@@ -27,6 +27,6 @@
   "dependencies": {
     "moment": "^2.22.1",
     "mongoose": "^5.0.15",
-    "webpack": "^3.11.0"
+    "webpack": "^5.75.0"
   }
 }
